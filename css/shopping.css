@@ -1,0 +1,105 @@
+.main ul li{
+    float: left;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border: 1px solid #aaa;
+    transition:all .2s;
+}
+
+.main ul li img{
+    width: 270px;
+    margin: 0 auto;
+    display: block;
+    transition: border .2s;
+}
+
+.main ul li img:hover{
+    border: 3px solid paleturquoise;
+    transform:translateY(5px) scale(1.3);
+}
+
+.prodIntro{
+    display: block;
+    padding: 5px 0;
+    font-size: 12px;
+}
+.prodIntro:hover{
+    font-weight: 700;
+    transform:scale(1.1);
+}
+.price{
+    display: block;
+    font: 700 18px italic;
+    color:pink;
+}
+.price:hover{
+    color:palevioletred;
+    font-size: 20px;
+    transform:scale(1.1);
+}
+
+.actOrProd{
+    width: 200px;
+    margin:20px auto;
+    transform-style: preserve-3d;
+    transition: all .6s;
+}
+
+.actOrProd:hover {
+    transform: rotateX(90deg);
+}
+
+.actOrProd div{  
+    text-align: center;
+    perspective: 100px;
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.actOrProd div:first-child{
+    /* z-index: 1; */
+    background-color: aquamarine;
+}
+
+.actOrProd div:nth-child(2){
+    background-color: orange;
+    transform-origin: top;
+    transform: rotateX(270deg); 
+    
+}
+
+.main .activity li{
+    position: relative;
+    margin: 40px;
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+    box-shadow: 3px 3px #aaa;
+}
+
+.main .activity li img{
+    position: absolute;
+    top:-20px;
+    width: 200px;
+    height: 300px;
+}
+
+.main .activity li .actInfo{
+    position: absolute;
+    left:210px;
+    display: block;
+    margin-left: 5px;
+    font-size: 16px;
+}
+.main .activity li .actInfo span{
+    display: block;
+    margin:20px;
+}
+
+footer.footer{
+    margin-top: 50px;
+}

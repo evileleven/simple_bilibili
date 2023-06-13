@@ -1,0 +1,53 @@
+/* .banner {
+    height: 50px;
+} */
+
+.nav {
+    height: 48px;
+    line-height: 48px;
+    overflow: hidden;
+}
+
+.nav-link ul li a, .nav-user-center .user-con ul li a {
+    color: black;
+}
+
+.nav-link ul li:first-child {
+    width: 100px;
+    height: 45px;
+}
+
+.zhuzhan::before {
+    content: '';
+}
+
+.nav-link ul li:first-child img {
+    width: 100%;
+    height: 100%;
+    background: url(../images/bilibili.png) no-repeat -20px;
+}
+
+.nav-search {
+    width: 250px;
+}
+
+.nav-search input {
+    width: 200px;
+}
+
+/* 视频栏目 */
+
+.video {
+    margin-top: 20px;
+}
+
+.video .leftVideo {
+    width: 800px;
+}
+
+.video .leftVideo h4 {
+    width: 700px;
+    font-size: 20px;
+    font-weight: 700;
+    /* white-space: nowrap; */
+}
